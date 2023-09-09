@@ -77,7 +77,7 @@ void loop() {
     if (distance < 12) {
       // Send message, the Print interface can be used to set the message contents
       mqttClient.beginMessage(topic);
-      mqttClient.print("Sohil Nagpal: Wave is detected, ");
+      mqttClient.print("Chinar Gupta: Wave is detected, ");
       mqttClient.print("Distance: ");
       mqttClient.print(distance);
       mqttClient.endMessage();
